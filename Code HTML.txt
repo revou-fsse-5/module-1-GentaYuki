@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="PT Jaya Lakban Sentosa Indonesia">
+    <meta name="description" content="jualan lakban legendaris">
+    <meta name="keywords" content="lakban, legendaris, murah">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="PT Jaya Lakban Sentosa Indonesia">
+    <link rel="stylesheet" href="css\style.css">
+    <title>PT Jaya Lakban Sentosa Indonesia</title>
+</head>
+<body>
+    <!--Judul-->
+<div class="Flex-header">
+    <header>
+        <img src="asset\Capture.PNG" alt="Logo Perusahaan">
+        <h1 id="home">PT Jaya Lakban Sentosa Indonesia</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#contact">About us</a> |
+        <a href="#product">Product</a> |            
+        <a href="#buy">Buy</a>
+    </nav>
+</div>
+    <hr>
+    <!-- Isi Web -->
+     
+     <!-- Best Seller Product -->
+    <main>
+        <h2 id="product"> Best Seller Product</h2>
+        <section class="best-seller">
+            <div class="container">
+                <img src="asset\3m-isolasi-lakban-bening-premium-scotch-packaging-tape-311-48mm-x100m.jpg" alt="lakban bening" width="200px" height="200px">
+                <h3>Lakban Bening</h3>
+                <p>Lakban bening adalah salah satu lakban perekat yang sering  kita jumpai dan kita gunakan dalam kehidupan sehari-hari.</p>
+                <p>Lakban jenis ini terbuat dari bahan polypropylene film dan memiliki kekuatan serta kelenturan yang sangat baik.</p></td>
+                <button class="tny-prdk">Tanya Product</button>
+            </div>
+            <div class="container">
+                <img src="asset\3m-masking-tape-3m-2210-paper-tape-24mm-x-19m-isolasi-lakban-kertas-terbaik.jpg" alt="masking tape" width="200px" height="200px">
+                <h3>Lakban Kertas</h3>
+                <p>Lakban jenis ini akan membantu Anda membundel dan mengatur benda-benda lepas seperti pulpen dan peralatan makan lainnya.</p>
+                <p>Lakban Jenis ini terbuat dari bahan polypropylene film yang memiliki tingkat ketebalan yang sangat bagus</p></td>
+                <button class="tny-prdk">Tanya Product</button>
+            </div>   
+            <div class="container">
+                <img src="asset\selotip-3m-lakban-isolasi-kabel-listrik-warna-hitam-scotch-tape-1258jr.jpg" alt="lakban listrik" width="200px" height="200px">
+                <h3>Lakban Listrik</h3> 
+                <p>Lakban Jenis ini digunakan untuk melapisi kabel elektronik yang terkelupas atau untuk memastikan bahwa tidak ada kebocoran listrik.</p>
+                <p>Lakban Jenis ini terbuat dari bahan polypropylene film dan memiliki kekuatan yang sangat bagus tahan antaran listrik</p></td>
+                <button class="tny-prdk">Tanya Product</button>
+            </div>
+        </section>
+    <hr>
+    
+    <!-- Form Pengajuan -->
+     <section>
+    <h2 id="buy">Form Pengajuan Pembelian</h2>   
+        <fieldset>
+            <legend> Isi Pengajuan Pembelian :</legend>
+            <table>
+                <tr>
+                    
+                    <td><label for="name">Nama      :</label></td>
+                    <td><input id="name"  type="text" placeholder="Masukan Nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email    :</label></td>
+                    <td><input id="email" type="email" placeholder="Masukan Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat  :</label></td>
+                    <td><textarea id="alamat" type="tetx" placeholder="Masukan Alamat Tujuan" rows="4" cols="50"></textarea></td>
+                </tr>
+        </table>
+            <p>pilih lakban yang dibutuhkan </p>
+            <table>
+            <tr>
+                <td><input type="checkbox" id="lakban1" name="lakban-bening" value="lakbanbening"></td>
+                <td><label for="lakban-bening"> Lakban Bening </label></td>
+                <td><input type="number"placeholder="isi qty"></td>
+            </tr>
+            <tr>                
+                <td><input type="checkbox" id="lakban2" name="masking-tape" value="masking"></td>
+                <td><label for="masking-tape"> Lakban Kertas </label></td>
+                <td><input type="number"placeholder="isi qty"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="lakban3" name="lakban-listrik" value="listrik"></td>
+                <td><label for="lakban-listrik"> Lakban Listrik </label></td>
+                <td><input type="number"placeholder="isi qty"></td>
+            </tr>
+        </table>
+        <br>
+        <div style="display: flex;">
+        <p>Garansi :</p>
+        <input type="radio" name="garansi">
+        <label Value="Yes">Ya</label>
+        <input type="radio" name="garansi">
+        <label Value="No">Tidak</label>
+        </div>
+        <br>
+            <input type="submit" value="submit">
+
+        </fieldset>
+    </section>
+    <!-- About Us -->
+     <section>
+    <h2 id="contact"> About Us </h2>
+    <p> PT Jaya Lakban Sentosa Indonesia adalah perusahaan manufaktur yang bergerang dibidang pembuatan lakban yang dapat anda gunakan dalam kehidupan sehari hari</p>
+    </section>
+    <hr>
+    </main>
+</body>
+</html>

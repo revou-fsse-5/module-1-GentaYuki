@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    background-color:rgb(185, 6, 6);
+}
+header>img {
+    width: 90px;
+    height: 90px;
+}
+
+body{
+    background-color: rgb(235, 234, 234);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+h2{
+    background-color: rgb(185, 6, 6);
+    color: white;
+    text-align: center;
+    padding:20px;
+    margin :10px;
+
+}
+
+div p{
+    text-align: justify;
+}
+#container {
+    border: 3px solid rgb(185, 6, 6);
+    margin-bottom: 20px;
+    margin-right: 10px; 
+    padding: 10px; 
+}
+.tny-prdk {
+    background-color: white;
+    color : black;
+    border : 2px solid rgb(185, 6, 6);
+    border-radius: 5px;
+    }
+    
+.tny-prdk:hover {
+        background-color: rgb(185, 6, 6);
+        color : white;
+    }
+
+#container h3 {
+        text-align: center;
+}
+
+.best-seller {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+article{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+article>section{
+    margin-right: 10px;
+    padding: 10px;
+}
+input[type='number']{
+    width: 50px;
+} 
+
+footer{
+    text-align: center;
+}
+
