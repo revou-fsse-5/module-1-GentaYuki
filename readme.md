@@ -12,7 +12,7 @@ code yang digunakan seperti berikut:
 
 meta tag tersebut digunakan untuk mempermudah proses ***SEO (Search Engine Optimization)*** untuk website ini.
 
-### Header website
+### Header Website
 
 Pada Bagian Header, terdapat beberapa fungsi diantaranya header dari nama Website, Image Logo perusahaan, serta Navigation bar.
 
