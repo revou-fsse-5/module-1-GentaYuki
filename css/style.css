@@ -55,6 +55,9 @@ div p{
     display: flex;
     padding: 20px;
     margin: 10px;
+    }
+.best-seller {
+    text-align: center;
 }
 article{
     display: flex;
@@ -73,3 +76,27 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width: 700px){
+
+    header{
+        width:720px;
+    }
+
+    h2 {
+        width: 660px;
+    }
+
+    .best-seller {
+        display: flex;
+        flex-direction:column;
+        padding: 0;
+        margin: 0;
+    }
+
+    fieldset {
+        width: 680px;
+    }
+}
+
+
+    
