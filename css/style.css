@@ -1,10 +1,31 @@
-header {
+
+.flex-header{
     display: flex;
     background-color:rgb(185, 6, 6);
 }
-header>img {
-    width: 90px;
-    height: 90px;
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color:rgb(185, 6, 6);
+    margin-top: 5px;
+    height: 30px;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav>ul>li>a{
+    color: white;
+    justify-content:center;
 }
 
 body{
@@ -79,13 +100,16 @@ footer{
 @media screen and (max-width: 700px){
 
     header{
-        width:720px;
+        width: 100vw;
     }
 
     h2 {
-        width: 660px;
-    }
+        width:100%
+    } 
 
+    .flex-header>nav {
+        flex-direction: column;
+    }
     .best-seller {
         display: flex;
         flex-direction:column;
@@ -93,9 +117,9 @@ footer{
         margin: 0;
     }
 
-    fieldset {
+    /* fieldset {
         width: 680px;
-    }
+    } */
 }
 
 
