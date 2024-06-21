@@ -1,13 +1,13 @@
-
+header{
+    position: sticky;
+    top: 0;
+}
 .flex-header{
     display: flex;
     background-color:rgb(185, 6, 6);
 }
 
-.navbar{
-    position: sticky;
-    top: 0;
-}
+
 nav{
     background-color:rgb(185, 6, 6);
     margin-top: 5px;
@@ -76,6 +76,7 @@ div p{
     display: flex;
     padding: 20px;
     margin: 10px;
+    justify-content: center;
     }
 .best-seller {
     text-align: center;
@@ -107,8 +108,8 @@ footer{
         width:100%
     } 
 
-    .flex-header>nav {
-        flex-direction: column;
+    .flex-header{
+        width: auto;
     }
     .best-seller {
         display: flex;
