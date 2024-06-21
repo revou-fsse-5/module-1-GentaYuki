@@ -25,7 +25,7 @@ ul{
 
 nav>ul>li>a{
     color: white;
-    justify-content:center;
+    
 }
 
 body{
@@ -53,8 +53,8 @@ div p{
 #container {
     border: 3px solid rgb(185, 6, 6);
     margin-bottom: 20px;
-    margin-right: 10px; 
     padding: 10px; 
+    text-align: center;
 }
 .tny-prdk {
     background-color: white;
@@ -76,11 +76,9 @@ div p{
     display: flex;
     padding: 20px;
     margin: 10px;
-    justify-content: center;
-    }
-.best-seller {
-    text-align: center;
+    gap: 10px;
 }
+
 article{
     display: flex;
     padding: 20px;
@@ -100,14 +98,6 @@ footer{
 
 @media screen and (max-width: 700px){
 
-    header{
-        width: 100vw;
-    }
-
-    h2 {
-        width:100%
-    } 
-
     .flex-header{
         width: auto;
     }
@@ -117,11 +107,15 @@ footer{
         padding: 0;
         margin: 0;
     }
+    article{
+        flex-wrap: wrap;
+    }
 
-    /* fieldset {
-        width: 680px;
-    } */
-}
-
+    textarea{
+        width: 274px;
+        height: 54px;
+    
+    }
+    }
 
     
