@@ -23,7 +23,7 @@ nav{
     height: 400px;
     text-shadow: 3px 2px 2px black;
     background-color:rgb(185, 6, 6) ;
-    background-image:url(background.PNG);
+    background-image:url(css/background.PNG);
     background-size: cover;
     background-position: center;
     
@@ -44,7 +44,9 @@ nav>ul>li>a{
 
 body{
     background-color: rgb(235, 234, 234);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 h1 {
     color: white;
