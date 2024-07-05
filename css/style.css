@@ -10,7 +10,7 @@ nav{
     margin: 5px;
     margin-top: 5px;
     height: 30px;
-    background-color:rgb(245, 201, 6);
+    background-color:rgb(241, 206, 8);
 }
 
 #background-header{
@@ -22,8 +22,8 @@ nav{
     height: 400px;
     text-shadow: 3px 2px 2px black;
     background-color:rgb(245, 201, 6);
-    background-image:url(../asset/background.PNG);
-    background-size: cover;
+    background-image: url(../asset/Logo.jpg);
+    background-size: contain;
     background-position: center;
     
 }
@@ -107,17 +107,40 @@ div p{
 article{
     background-image: url(../asset/Logo.jpg);
     display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows:1fr 1fr ;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows:minmax(100px, auto);
     padding: 20px;
     margin: 10px;
 }
 
-#introduction{
-    grid-row-start: 1;
-    grid-row-end: 3;
+.gridclass:nth-child(1) {
+    grid-column: span 4;
+    grid-row: span 3;
 }
-#ekspedisi >img{
+.gridclass:nth-child(2) {
+    grid-column-start:5;
+    grid-column-end: 8;
+}
+
+.gridclass:nth-child(3) {
+    grid-column-start:9;
+    grid-column-end: 12;
+}
+
+.gridclass:nth-child(4){
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: auto;
+    grid-row-end: auto;
+}
+
+.gridclass:nth-child(5){
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: auto;
+    grid-row-end: auto;
+}
+.gridclass>img{
     height: 30%;
     width: 30%;
 }
